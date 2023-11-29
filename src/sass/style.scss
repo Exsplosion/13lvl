@@ -1,0 +1,117 @@
+html {
+    font-family: "Montserrat-Regular";
+    font-size: 15px;
+}
+.head-block {
+    width: 1110px;
+    height: 65px;
+    margin: 30px 85px 0 85px;
+}
+.logo {
+    width: 65px;
+    height: 65px;
+}
+.head-block__names {
+    margin-left: 95px;
+    margin-right: 210px;
+}
+.head-block__links {
+    margin-right: 0;
+}
+.head-block__links_ln {
+    font-weight: 700;
+}
+.head-block__links_bt {
+    width: 171px;
+    height: 41px;
+    
+}
+.center-block {
+    margin: 21px 192px 0 85px;
+}
+.center-block__txt_bg {
+    color: #1C1D28;
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.center-block__txt_sm {
+    color: #1C1D28;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 30px 0 56px 0;
+    width: 434px;
+}
+.center-block__txt_bts_l {
+    width: 171px;
+    height: 41px;
+    margin-right: 20px;
+}
+.center-block__txt_bts_r {
+    width: 171px;
+    height: 41px;
+    color: #5551F7;
+    background-color: #FFFFFF;
+    border: 1px solid #5551F7;
+}
+.human {
+    margin-left: 97px;
+}
+.logo-work {
+    margin: 55px 85px 0 85px;
+}
+.logo-work__name {
+    font-size: 2rem;
+    font-weight: 900;
+    color: #1C1D28;
+}
+.logo-work__staps {
+    margin: 50px 150px 0 65px;
+}
+.logo-work__stap {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 212px;
+}
+.logo-work__staps_tw {
+    padding-top: 90px;
+}
+.circle_dw {
+    position: absolute;
+    top: 201px;
+    left: 48px;
+}
+.logo-work__staps_th {
+    padding-bottom: 55px;
+}
+.logo-work__staps_for {
+    padding-top: 50px
+}
+.logo-work__stuff {
+    margin: 57px 85px 0 0;
+    position: relative;
+    width: 1110px;
+}
+.logo-work__stuff_bl {
+    margin-left: 28px;
+    width: 489px;
+    padding-right: 489px;
+    border: 1px solid #1C1D28;
+}
+.logo-work__stuff_ln {
+    left: calc(128px + 489px);
+    border: 1px solid #E4E4E4;
+    padding-left: 489px;
+    width: calc(980px - 489px);
+}
+.logo-work__stuff_r {
+    margin-left: 28px;
+}
+@import 'mixin';
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: url("Montserrat-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}

@@ -1,0 +1,57 @@
+@mixin display {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+}
+@mixin gap {
+    gap: 45px;
+}
+@mixin button {
+    background-color: #5551F7;
+    color: #FFFFFF;
+    border: 0;
+}
+@mixin circle {
+    background-color: #F2FCFF;
+    width: 113px;
+    height: 113px;
+    border-radius: 50%;
+    z-index: 1;
+    position: absolute;
+    top: 31px;
+    left: 48px;
+}
+@mixin txt_bg {
+    font-size: 70px;
+    font-weight: 900;
+    position: relative;
+    margin: 0;
+    z-index: 2;
+    -webkit-text-stroke: 1px #5551F7;
+    color: transparent;
+}
+@mixin txt_sm {
+    font-size: 13px;
+    font-weight: 400;
+    color: #1C1D28;
+    position: relative;
+    z-index: 2;
+}
+.txt_little {
+    @include txt_sm();
+}
+.txt_bg {
+    @include txt_bg();
+}
+.circle {
+    @include circle();
+}
+.head-block__links_bt, .center-block__txt_bts_l {
+    @include button();
+}
+.head-block__links, .head-block__names, .logo-work__staps {
+    @include gap();
+}
+.head-block, .head-block__links, .head-block__names, .center-block, .logo-work__staps, .logo-work__stuff {
+    @include display();
+}
